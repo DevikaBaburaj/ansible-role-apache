@@ -1,0 +1,9 @@
+---
+package_name:
+ - apache2
+ - libapache2-mod-php
+
+http_port: "80"
+http_config: '/etc/apache2/sites-enabled/000-default.conf'
+http_host: "3.111.186.197"
+doc_root: '/var/www/html/wordpress'
